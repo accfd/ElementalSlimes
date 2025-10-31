@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LoadingWorld
+comment1.params=selectedId
+comment1.target=LoadingWorld(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

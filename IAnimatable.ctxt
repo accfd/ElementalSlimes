@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=IAnimatable
+comment0.text=\r\n\ IAnimatable\ -\ interface\ sederhana\ untuk\ actor\ yang\ punya\ animasi\r\n
+comment1.params=action
+comment1.target=void\ playAnimation(java.lang.String)
+comment2.params=
+comment2.target=void\ updateAnimation()
+numComments=3

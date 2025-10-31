@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PlayWorld
+comment1.params=
+comment1.target=PlayWorld()
+comment2.params=selectedId
+comment2.target=PlayWorld(java.lang.String)
+comment3.params=
+comment3.target=void\ prepare()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ spawnRandomElement()
+comment6.params=score\ lives
+comment6.target=void\ updateHUD(int,\ int)
+comment7.params=
+comment7.target=int\ getScore()
+comment8.params=
+comment8.target=int\ getLives()
+numComments=9

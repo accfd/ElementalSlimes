@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SlimePreviewActor
+comment1.params=anim
+comment1.target=SlimePreviewActor(Animation)
+comment2.params=anim
+comment2.target=void\ updateImage(Animation)
+numComments=3

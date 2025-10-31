@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PauseWorld
+comment1.params=playWorld
+comment1.target=PauseWorld(PlayWorld)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

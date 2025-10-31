@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlayerData
+comment1.params=index
+comment1.target=void\ setSelectedSlime(int)
+comment2.params=
+comment2.target=int\ getSelectedSlime()
+numComments=3

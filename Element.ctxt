@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Element
+comment1.params=type\ baseSpeed
+comment1.target=Element(java.lang.String,\ double)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ fall()
+comment4.params=
+comment4.target=java.lang.String\ getType()
+numComments=5

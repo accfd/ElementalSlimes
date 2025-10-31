@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SlimePreview
+comment1.params=color\ idleFrames\ danceFrames
+comment1.target=SlimePreview(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=slot
+comment3.target=void\ setSlot(int)
+comment4.params=anim
+comment4.target=void\ setAnimation(java.lang.String)
+comment5.params=
+comment5.target=void\ animate()
+comment6.params=
+comment6.target=void\ smoothMove()
+comment7.params=
+comment7.target=void\ updateImage()
+comment8.params=
+comment8.target=void\ onSelected()
+comment9.params=
+comment9.target=java.lang.String\ getId()
+numComments=10

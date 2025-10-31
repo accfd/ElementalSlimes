@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Animation
+comment0.text=\r\n\ Animation\ -\ memecah\ sprite\ strip\ horizontal\ menjadi\ frames\ dan\ mengatur\ playback.\r\n\ path\ ->\ path\ to\ image\ in\ images/\r\n
+comment1.params=path\ framesCount
+comment1.target=Animation(java.lang.String,\ int)
+comment2.params=path\ framesCount\ frameDelay
+comment2.target=Animation(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=void\ update()
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ getCurrentFrame()
+comment5.params=scale
+comment5.target=greenfoot.GreenfootImage\ getFrameScaled(double)
+comment6.params=
+comment6.target=void\ playLoop()
+comment7.params=durationTicks
+comment7.target=void\ playOnce(int)
+comment8.params=
+comment8.target=void\ stop()
+comment9.params=
+comment9.target=boolean\ isPlaying()
+numComments=10
