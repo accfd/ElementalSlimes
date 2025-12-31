@@ -1,7 +1,7 @@
 # Elemental Slimes 🧪
 ### Game Development Project - PBO Sistem Informasi Universitas Andalas
 
-Elemental Slimes adalah game refleks warna berbasis kecepatan dan ketepatan yang dikembangkan menggunakan **Java** dan framework **Greenfoot**. Proyek ini dibuat untuk memenuhi penilaian akhir mata kuliah Pemrograman Berorientasi Objek (PBO).
+Elemental Slimes adalah game refleks warna berbasis kecepatan dan ketepatan yang dikembangkan menggunakan **Java** dan framework **Greenfoot**. Proyek ini dibuat untuk memenuhi penilaian akhir mata kuliah **Pemrograman Berorientasi Objek (PBO)** di Program Studi Sistem Informasi Universitas Andalas.
 
 ---
 
@@ -13,35 +13,34 @@ Elemental Slimes adalah game refleks warna berbasis kecepatan dan ketepatan yang
 ---
 
 ## ✨ Tentang Game
-Terinspirasi dari *Color Switch* dan *Slime Rancher*, game ini menantang pemain mengendalikan slime yang bisa berubah warna (Merah, Biru, Hijau) untuk menangkap orb yang sesuai di dunia hutan ajaib.
+Terinspirasi dari *Color Switch* dan *Slime Rancher*, game ini menantang pemain mengendalikan slime yang dapat berubah warna (merah, biru, atau hijau) untuk menangkap orb yang sesuai di dunia hutan ajaib.
 
 ### 🎮 Aturan Main:
-* **Tombol Arah**: Menggerakkan slime ke kiri/kanan.
-* **Matching Color**: Skor **+10** jika warna orb sama, **-10** jika berbeda.
-* **Skull Orb**: Mengurangi 1 nyawa.
-* **Star Orb**: Menambah 1 nyawa (Maksimal 3).
-* **Rainbow Orb**: Efek bebas warna selama 10 detik (Bonus poin).
+* **Pergerakan**: Pemain menggerakkan slime ke kiri atau kanan menggunakan tombol arah.
+* **Matching Color**: Skor **+10** jika menangkap orb dengan warna yang sama, dan skor berkurang **-10** jika berbeda.
+* **Skull Orb**: Mengurangi satu nyawa pemain.
+* **Star Orb**: Menambah satu nyawa hingga batas maksimal tiga.
+* **Rainbow Orb**: Memberi efek bebas warna selama 10 detik dan setiap orb yang ditangkap menambah +10 poin.
+* **Game Over**: Permainan berakhir jika nyawa habis, menampilkan skor akhir dengan opsi replay atau keluar.
 
 ---
 
 ## 🛠️ Stack Teknologi & Pengembangan
 * **Bahasa**: Java
 * **Framework**: Greenfoot
-* **Konsep PBO**: Mengimplementasikan *Inheritance, Polymorphism, Modular Classes,* dan *Interface*.
-* **Sumber Aset**: Craftpix.net (Karakter, Orb, Ikon) & Custom design oleh tim.
+* **Konsep PBO**: Mengimplementasikan konsep OOP seperti *Inheritance, Polymorphism, Modular Classes,* dan *Interface*.
+* **Sumber Aset**: Sebagian besar aset grafis diperoleh dari **Craftpix.net** dan disesuaikan ulang oleh tim pengembang.
 
 ---
 
-## 📦 Cara Menjalankan
+## 📦 Cara Instalasi dan Menjalankan
 1. Pastikan **Greenfoot** sudah terinstal di komputer Anda.
 2. Clone repositori ini:
-   ```bash
-   git clone [https://github.com/accfd/ElementalSlimes.git](https://github.com/accfd/ElementalSlimes.git)
+   `git clone https://github.com/accfd/ElementalSlimes.git`
 3. Membuka Proyek:
    * Buka aplikasi Greenfoot.
    * Pilih menu **Open Project**.
    * Navigasikan ke folder hasil clone dan pilih file `project.greenfoot`.
-
 4. Menjalankan Game:
    * Klik tombol **Compile** pada pojok kanan bawah antarmuka Greenfoot.
    * Klik tombol **Run** untuk memulai permainan.
@@ -56,15 +55,11 @@ Terinspirasi dari *Color Switch* dan *Slime Rancher*, game ini menantang pemain 
 
 ---
 
-## 📄 Tujuan Pembuatan
-Proyek ini dibuat sebagai bagian dari penilaian akhir mata kuliah **Pemrograman Berorientasi Objek (PBO)** di Program Studi Sistem Informasi Universitas Andalas. Tujuan utamanya adalah mengimplementasikan konsep-konsep OOP seperti *class*, *inheritance*, *polymorphism*, dan *interface* ke dalam media interaktif.
-
----
-
-## 📜 Lisensi & Kredit
-* **Pemrograman & Logika**: Fuadi Dhiyaulhaq.
-* **Visual & Audio**: Lyvia Putri Lestari & Hana Rahmadini.
-* **Sumber Aset**: [Craftpix.net](https://craftpix.net/) (untuk aset non-komersial pendidikan).
+## 📜 Kredit dan Kontribusi
+* **Pemrograman dan Logika Permainan**: Fuadi Dhiyaulhaq
+* **Visual, Aset, dan Dokumentasi**: Lyvia Putri Lestari, Hana Rahmadini
+* **Sound dan Efek Audio**: Lyvia Putri Lestari
+* **Desain Game**: Tim Kelompok 6
 
 ---
 **© 2025 Kelompok 6 - PBO SI UNAND**
