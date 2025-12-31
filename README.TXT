@@ -1,78 +1,71 @@
-===========================================
-                README PROJECT
-             GAME ELEMENTAL SLIMES
-===========================================
+# Elemental Slimes 🧪
+### Game Development Project - PBO Sistem Informasi Universitas Andalas
 
-I. IDENTITAS KELOMPOK
-Nama Kelompok   : 6  
-Program Studi   : S1 Sistem Informasi  
-Fakultas        : Teknologi Informasi  
-Universitas     : Universitas Andalas  
+Elemental Slimes adalah game refleks warna berbasis kecepatan dan ketepatan yang dikembangkan menggunakan **Java** dan framework **Greenfoot**. Proyek ini dibuat untuk memenuhi penilaian akhir mata kuliah Pemrograman Berorientasi Objek (PBO).
 
-Anggota Kelompok :
-1. 2411522001 - Fuadi Dhiyaulhaq  
-2. 2411521006 - Lyvia Putri Lestari  
-3. 2411523010 - Hana Rahmadini  
+---
 
+## 👥 Identitas Kelompok (Kelompok 6)
+* **Fuadi Dhiyaulhaq** (2411522001) - Pemrograman & Logika
+* **Lyvia Putri Lestari** (2411521006) - Visual, Dokumentasi & Audio
+* **Hana Rahmadini** (2411523010) - Visual, Aset & Dokumentasi
 
-II. NAMA GAME
-Elemental Slimes
+---
 
+## ✨ Tentang Game
+Terinspirasi dari *Color Switch* dan *Slime Rancher*, game ini menantang pemain mengendalikan slime yang bisa berubah warna (Merah, Biru, Hijau) untuk menangkap orb yang sesuai di dunia hutan ajaib.
 
-III. SUMBER INSPIRASI GAME
-Game ini terinspirasi dari Color Switch dan Slime Rancher yang mengedepankan kecepatan refleks serta tampilan visual menarik dengan karakter lucu dan dinamis.  
-Konsep tersebut diadaptasi menjadi permainan baru dengan karakter utama slime elemental yang harus menangkap orb berwarna sambil menghindari jebakan di dunia hutan ajaib.
+### 🎮 Aturan Main:
+* **Tombol Arah**: Menggerakkan slime ke kiri/kanan.
+* **Matching Color**: Skor **+10** jika warna orb sama, **-10** jika berbeda.
+* **Skull Orb**: Mengurangi 1 nyawa.
+* **Star Orb**: Menambah 1 nyawa (Maksimal 3).
+* **Rainbow Orb**: Efek bebas warna selama 10 detik (Bonus poin).
 
+---
 
-IV. KETERANGAN GAME
-Elemental Slimes adalah game refleks warna berbasis kecepatan dan ketepatan. Pemain mengendalikan karakter slime yang dapat berubah warna menjadi merah, biru, atau hijau, menyesuaikan dengan orb yang jatuh dari langit.  
-Tujuan permainan adalah mengumpulkan poin sebanyak mungkin dengan menangkap orb yang sesuai warna, sekaligus menjaga agar nyawa tidak habis karena orb beracun atau kesalahan warna.  
-Game ini memiliki tampilan antarmuka yang sederhana namun interaktif, dengan berbagai layar seperti menu utama, pemilihan karakter, pemuatan, permainan utama, pause, dan game over.  
+## 🛠️ Stack Teknologi & Pengembangan
+* **Bahasa**: Java
+* **Framework**: Greenfoot
+* **Konsep PBO**: Mengimplementasikan *Inheritance, Polymorphism, Modular Classes,* dan *Interface*.
+* **Sumber Aset**: Craftpix.net (Karakter, Orb, Ikon) & Custom design oleh tim.
 
+---
 
-V. ATURAN MAIN GAME
-1. Pemain menggerakkan slime ke kiri atau kanan menggunakan tombol arah.  
-2. Orb berwarna jatuh secara acak dari bagian atas layar.  
-3. Pemain hanya boleh menangkap orb yang warnanya sama dengan slime yang sedang digunakan.  
-4. Jika menangkap orb dengan warna yang sama, skor bertambah +10 poin.  
-5. Jika menangkap orb dengan warna berbeda, skor berkurang 10 poin.  
-6. Skull Orb akan mengurangi satu nyawa pemain.  
-7. Star Orb akan menambah satu nyawa hingga batas maksimal tiga.  
-8. Rainbow Orb memberi efek bebas warna selama 10 detik dan setiap orb yang ditangkap akan menambah +10 poin.  
-9. Pemain memulai permainan dengan tiga nyawa.  
-10. Permainan berakhir jika nyawa habis, dan layar Game Over akan menampilkan skor akhir dengan opsi untuk replay atau keluar.  
+## 📦 Cara Menjalankan
+1. Pastikan **Greenfoot** sudah terinstal di komputer Anda.
+2. Clone repositori ini:
+   ```bash
+   git clone [https://github.com/accfd/ElementalSlimes.git](https://github.com/accfd/ElementalSlimes.git)
+3. Membuka Proyek:
+   * Buka aplikasi Greenfoot.
+   * Pilih menu **Open Project**.
+   * Navigasikan ke folder hasil clone dan pilih file `project.greenfoot`.
 
+4. Menjalankan Game:
+   * Klik tombol **Compile** pada pojok kanan bawah antarmuka Greenfoot.
+   * Klik tombol **Run** untuk memulai permainan.
 
-VI. PENGEMBANGAN GAME
-Elemental Slimes dikembangkan menggunakan aplikasi Greenfoot dengan bahasa pemrograman Java.  
-Seluruh elemen permainan dirancang berdasarkan prinsip Pemrograman Berorientasi Objek (PBO), termasuk penggunaan class, inheritance, polymorphism, dan interface.  
-Animasi serta mekanisme interaksi antar objek disusun secara modular agar mudah dikembangkan dan dipelihara di masa mendatang.  
+---
 
+## 📂 Struktur Repositori (Core Logic)
+* **World**: `OpeningWorld`, `ChooseSlimeWorld`, `MyWorld` (Arena Utama), `GameOverWorld`.
+* **Actors**: `Slime` (Karakter Utama), `Element` (Parent Class), `BlueOrb`, `GreenOrb`, `RedOrb`, `YellowOrb`.
+* **UI Components**: `Button`, `StartButton`, `BackButton`, `HowToPlay`.
+* **Aset**: Folder `images/` (Sprites), `sounds/` (Audio), dan `selectable/`.
 
-VII. SUMBER ASET
-Beberapa aset grafis seperti karakter, orb, ikon, dan elemen visual lainnya diperoleh dari situs **Craftpix.net** yang menyediakan aset gratis untuk keperluan pendidikan dan non-komersial.  
-Aset tambahan seperti tombol, latar belakang, serta elemen efek visual dibuat dan disesuaikan oleh tim pengembang agar serasi dengan tema permainan.  
-Seluruh aset telah disesuaikan ulang agar konsisten secara visual dan kompatibel dengan format Greenfoot.  
+---
 
+## 📄 Tujuan Pembuatan
+Proyek ini dibuat sebagai bagian dari penilaian akhir mata kuliah **Pemrograman Berorientasi Objek (PBO)** di Program Studi Sistem Informasi Universitas Andalas. Tujuan utamanya adalah mengimplementasikan konsep-konsep OOP seperti *class*, *inheritance*, *polymorphism*, dan *interface* ke dalam media interaktif.
 
-VIII. TUJUAN PEMBUATAN GAME
-Proyek ini dibuat sebagai bagian dari penilaian akhir mata kuliah **Pemrograman Berorientasi Objek (PBO)** di Program Studi Sistem Informasi Universitas Andalas.  
-Tujuan utamanya adalah mengimplementasikan konsep-konsep OOP dalam bentuk media interaktif berupa game yang edukatif, menarik, dan menantang, serta melatih kemampuan kolaborasi dalam tim.
+---
 
+## 📜 Lisensi & Kredit
+* **Pemrograman & Logika**: Fuadi Dhiyaulhaq.
+* **Visual & Audio**: Lyvia Putri Lestari & Hana Rahmadini.
+* **Sumber Aset**: [Craftpix.net](https://craftpix.net/) (untuk aset non-komersial pendidikan).
 
-IX. KREDIT DAN KONTRIBUSI
-Pemrograman dan Logika Permainan : Fuadi Dhiyaulhaq  
-Visual, Aset, dan Dokumentasi     : Lyvia Putri Lestari, Hana Rahmadini  
-Sound dan Efek Audio              : Lyvia Putri Lestari  
-Desain Game                       : Tim Kelompok 6  
-Sumber Aset                       : Craftpix.net  
-
-
-X. LINK REPOSITORY
-Repository GitHub Resmi :  
-https://github.com/accfd/ElementalSlimes.git  
-
-
-===========================================
-     © 2025 Kelompok 6 - PBO SI UNAND
-===========================================
+---
+**© 2025 Kelompok 6 - PBO SI UNAND**
+*Dibuat dengan kolaborasi dan semangat belajar oleh Fuadi, Lyvia, dan Hana.*
